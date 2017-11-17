@@ -1,0 +1,26 @@
+<projects>
+    <_item>
+        <name>project</name>
+        <libraries>
+            <_item>
+                <name>library</name>
+                <srcs>
+                    <_item>
+                        <path>lib.cpp</path>
+                    </_item>
+                </srcs>
+                <cxx_flags> -lm </cxx_flags>
+                <type>0</type>
+            </_item>
+        </libraries>
+        <executables>
+            <_item>
+                <name>executable</name>
+                <srcs>
+                    <_item>main.cpp</_item>
+                </srcs>
+                <cxx_flags> -llibrary </cxx_flags>
+            </_item>
+        </executables>
+    </_item>
+</projects>
